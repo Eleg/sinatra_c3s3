@@ -6,7 +6,7 @@ get '/' do
 end
 
 get '/todo' do
-  @todos = ['Order canapes', 'Confirm event details with attendees', 'Book band']
+  @todos = ['Order canapes', 'Confirm event details with attendees', 'Book band', 'attend a meeting']
 
   erb :todo
 end
